@@ -8,8 +8,10 @@ public class APP {
 		
 		Controlador c = new Controlador();
 		c.cargarPersonas();
+		c.ordenarPorApellido();
+		c.generarCsvEdad(10, 20);
 		
-		System.out.println(c.getPersonas());
+		
 		
 		
 	}
